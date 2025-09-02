@@ -49,6 +49,8 @@ Google Blog Theme과 My Google Blog를 관리하는 게 목표
 ```
 
 * 문제 시 즉시 롤백 (버전 고정 사용)
+    * [gh-pages](https://github.com/JeonghunLee/blogspot/tree/gh-pages/)    
+    * [release.html](https://github.com/JeonghunLee/blogspot/tree/gh-pages/release.html)
 ```
     <!-- Jeonghun's Javascript/css Start -->
     <script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-v0.0.3.js"></script>
@@ -56,5 +58,6 @@ Google Blog Theme과 My Google Blog를 관리하는 게 목표
     <!-- Jeonghun's Javascript/css End -->    
 
 ```
+
 
 </br>
