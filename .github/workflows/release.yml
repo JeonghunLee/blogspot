@@ -39,5 +39,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/custom-v*.css
-            dist/bundle-v*.js
+            dist/jeonghun-v*.css
+            dist/jeonghun-v*.js

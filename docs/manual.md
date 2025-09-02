@@ -25,9 +25,24 @@
 
  Google Blog Theme과 My Google Blog를 관리하는 게 목표
 
-* 최대한 단순화해서 관리 
+
+</br>
+
+## Blogger 변경 
+
+
+</br>
+
+* 항상 최신 추적
 ```
-<script src="https://{username}.github.io/{repo}/jeonghun-bundle.min.js?v=20250902.3"></script>
-<link rel="stylesheet" href="https://{username}.github.io/{repo}/jeonghun-style.css?v=20250902.3">
+<link rel="stylesheet" href="https://{username}.github.io/{repo}/jeonghun-latest.css?v=20250902.1">
+<script defer src="https://{username}.github.io/{repo}/jeonghun-latest.js?v=20250902.1"></script>
 ```
+
+* 문제 시 즉시 롤백 (버전 고정 사용)
+```
+<link rel="stylesheet" href="https://{username}.github.io/{repo}/jeonghun-v1.0.0.css">
+<script defer src="https://{username}.github.io/{repo}/jeonghun-v1.0.0.js"></script>
+```
+
 </br>
