@@ -43,8 +43,8 @@ Google Blog Theme과 My Google Blog를 관리하는 게 목표
 * 항상 최신 추적
 ```
 <!-- Jeonghun's Javascript/css  -->
-    <script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-latest.js?v=20250902.1"></script>
-    <link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-latest.css?v=20250902.1"></link>
+    <script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-latest.js"></script>
+    <link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-latest.css"></link>
 
 ```
 
