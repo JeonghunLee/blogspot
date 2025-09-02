@@ -1,0 +1,35 @@
+name: Build & Publish CSS
+
+on:
+  push:
+    tags:
+      - "v*.*.*"         # v1.0.1 같은 태그를 푸시할 때만 릴리즈
+  workflow_dispatch:      # 필요시 수동 실행
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm ci
+      - run: npm run release
+
+      # 1) gh-pages로 '최신' 배포
+      - name: Deploy latest to Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          # dist 안의 파일 모두 업로드 (custom-latest.css 포함)
+
+      # 2) 릴리즈 자산에 '버전 고정본' 올리기
+      - name: Upload versioned asset to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/custom-v*.css

@@ -1,0 +1,430 @@
+/* === Jeonghun external CSS (same rules, ready to host) — 2025-09-02 === */
+/* Tip: keep this as your single source and link it in Blogger <head> with a version query (e.g., ?v=20250902) */
+
+
+/* === Jeonghun backup CSS (as-is) — 2025-09-02 === */
+
+/* 
+   for Code Source Style (All code blocks)
+
+   pre tag class
+         top right bottom left
+*/ 
+  .codeprint{
+        margin: 0px 50px 0px 30px;
+        background-color: #f7f7f7;
+        border: 1px solid rgb(221, 221, 221);
+        color: #006600;
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 1em;
+        overflow: auto;
+        padding: 1em;
+  }
+
+
+/*
+    My Table Style (Jeonghun's Table Style) 
+      table, th, td  class 
+*/
+
+	.table_wiki {
+		background-color: #f8f9fa;
+		border-collapse: collapse;
+		border: 1px solid rgb(162, 169, 177);
+		color: #222222;
+		font-family: sans-serif; 
+		font-size: 14px; 
+		margin: 1em 0px;
+	}
+
+	.th_wiki {
+		background-color: #eaecf0; 
+		border: 1px solid rgb(162, 169, 177); 
+		padding: 0.2em 0.4em; 
+		text-align: center;
+	}
+	.th_wiki_left {
+		background-color: #eaecf0; 
+		border: 1px solid rgb(162, 169, 177); 
+		padding: 0.2em 0.4em; 
+		text-align: left;
+	}
+	.th_wiki_right {
+		background-color: #eaecf0; 
+		border: 1px solid rgb(162, 169, 177); 
+		padding: 0.2em 0.4em; 
+		text-align: right;
+	}
+	
+	.td_wiki {
+		border: 1px solid rgb(162, 169, 177); 
+		padding: 0.2em 0.4em; 
+		text-align: center;
+	}  
+	.td_wiki_left {
+		border: 1px solid rgb(162, 169, 177); 
+		padding: 0.2em 0.4em; 
+		text-align: left;
+	}  
+	.td_wiki_right {
+		border: 1px solid rgb(162, 169, 177); 
+		padding: 0.2em 0.4em; 
+		text-align: right;
+	}  
+
+
+/* 
+    @Side Gadgets
+      @ Layout-> sidbar-right-1
+      @ Discription: Side Bar Margin Control  
+      Layout- Sidbar Right 1
+      
+      1. HTML(Link) 
+      2. BlogSearch1
+      3. Translate1 
+      4  ...    
+       top right bottom left
+
+*/
+      #sidebar-right-1 {
+        margin:  5px 0px 0px   5px;
+        padding: 5px 10px 10px 5px;
+      }
+
+
+/*
+    @Side Gadgets      
+      @ Layout-> sidbar-right-1
+      @ Discription: All Custom Gadgets
+      
+      Jeonghun's SIDE-MENUS 구성                  
+			Gadget          :   Name                 
+			--------------------------------------------------------
+      		HTML			: LINK  (included icons in this Gadget)
+      		BlogSearch1	    : BlogSearch
+      		Translate1      : Translate
+      		Label1          : Tags  ►
+      		BlogArchive1    : Recent Lists  ►
+      		PopularPosts1   : Popular Posts  ►
+      		Stats1          : Page View
+      		Label2          : Labels (Clould)
+
+for making underline 
+
+here is crome setting but need IE Setting more 
+
+
+       margin  : top right bottom left  (clockwise)
+       padding : top right bottom left  (clockwise) 
+
+       border-bottom-style  
+
+*/
+      #HTML1{
+        margin:  0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+        border:  1px solid gray;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-bottom-style:solid;
+        border-bottom-right-radius:0em;
+        border-bottom-left-radius:0em;
+      }
+
+      #BlogSearch1{
+        margin:  0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+        border:  1px solid gray;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-bottom-style:solid;
+        border-bottom-right-radius:0em;
+        border-bottom-left-radius:0em;
+      }
+
+
+      #Translate1{
+        margin:  0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+        border:  1px solid gray;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-bottom-style:solid;
+        border-bottom-right-radius:0em;
+        border-bottom-left-radius:0em;
+      }
+
+/* Tags */
+
+      #Label1{
+        margin:  0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+        border:  1px solid gray;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-bottom-style:solid;
+        border-bottom-right-radius:0em;
+        border-bottom-left-radius:0em;
+      }
+
+/* Recent Lists  */
+
+      #BlogArchive1{
+        margin:  0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+        border:  1px solid gray;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-bottom-style:solid;
+        border-bottom-right-radius:0em;
+        border-bottom-left-radius:0em;
+      }
+
+/* Popular Posts */
+
+      #PopularPosts1 {
+        margin:  0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+        border:  1px solid gray;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-bottom-style:solid;
+        border-bottom-right-radius:0em;
+        border-bottom-left-radius:0em;
+      }
+
+
+/*  Page View */
+
+      #Stats1{
+        margin:  0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+        border:  1px solid gray;
+        border-top-style:none;
+        border-right-style:none;
+        border-left-style:none;
+        border-bottom-style:solid;
+        border-bottom-right-radius:0em;
+        border-bottom-left-radius:0em;
+      }
+
+/* Last Gadget  */
+      #Label2 {
+        margin:  0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+      }
+
+
+
+/* 
+    @Side Gadgets      
+      @ Layout-> sidbar-right-1
+      @ Discription: Display Control 
+
+        this controls to list labels or posts with $(this).siblings().slideToggle(200)
+
+	      1. Label1 
+        2. BlogArhive 
+        3. PopularPosts  
+        4. Label2 
+
+*/
+      #Label1 .widget-content {
+        display: none;
+      }
+
+      .BlogArchive .widget-content {
+        display: none;
+      }
+
+      .PopularPosts .widget-content {
+        display: none;
+      }
+      
+      #Label2 .widget-content {
+        display: block;
+      }
+
+
+/* 
+    @Side Gadgets      
+      @ Layout-> sidbar-right-1
+      @ Discription: 	Hiding Title or H2 comments
+	          display none , 
+           remove Title name  
+ */
+      .Translate .title {
+        display: none;
+      }
+
+      .Stats h2 {
+        display: none;
+      }
+
+      .BlogSearch .title {
+        display: none;
+      }
+
+      #Label2  h2 {
+        display: none;
+      }
+
+
+
+
+
+/* 
+    @Side Gadgets      
+      @ Layout-> sidbar-right-1
+      @ Discription:   h2: Title Style setting    
+        BlogArchive
+        Label
+        PopularPosts 
+
+ */
+
+      .BlogArchive h2, 
+      .Label h2 , 
+      .PopularPosts h2 {
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .BlogArchive h2:focus, .BlogArchive h2:hover, 
+      .Label h2:focus, .Label h2:hover, 
+      .PopularPosts h2:focus , .PopularPosts h2:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+ 
+/* 
+    @Side Gadgets      
+      @ Layout-> sidbar-right-1
+      @ Discription:   h2: Title Image setting
+	      #Label1        h2 : image  (left Image) 
+        BlogArhive     h2 : image
+	      PopularPosts   h2 : image  
+        background : images 
+
+        32x32 : 8bit
+
+*/
+
+
+      #Label1 h2 {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNpiNDY23s9AAMycOfM7UF05kHkZmzwTMkdSUhKrIcXFxZy3bt3qBjIN8RrS09PDsHnzZjCNDr58+cKQlpbGDjSoHcg1w2oIyAUODg5gARCNzUVIBrUCuVYYhjx//pzhwIEDYAEQDeJjA1CDWIAGNQK59jBxRuSABbkAlwHIgIeHh2HWrFn/1NTU2oDcvSgBS4wBSC5iArqoCsj1YGIgEyAZVMoEchqlBjEB/cZAiUHg2AEGznpKDAImxOeM////B4VLKtBvEUCngZ1ILKivr3/u6+ubBzJAGZQ9gC5aQoqLgAY8BhkAZL4BuQQkxgXE34A4BuiiZEIuAhrwEGhAEZD5DpzYoIaA2UAM4kQADUrHZRDUgAIg8wO2XAwzbQXQa5OweQ1owB10AyA6gS7BgX1u3ry5397eHow3bdo0EyjGi00tQIABANPgyAH1q1eaAAAAAElFTkSuQmCC");
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        text-indent: 30px;
+      }
+
+      .BlogArchive h2 {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE1JREFUeNpiNDY23s9AAWBioBCwYBM8c+YMVsUmJibEGYBNMS5DaeMFfDYSZQA2v9I3FrB5AZeriI4FmnrBccCT8mhmGs1MwyAzAQQYAKEWG9zm9QFEAAAAAElFTkSuQmCC");
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        text-indent: 30px;
+      }
+
+
+      .PopularPosts h2 {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNpiNDY23s9AAMycOfM7UF05kHkZmzwTMkdSUhKrIcXFxZy3bt3qBjIN8RrS09PDsHnzZjCNDr58+cKQlpbGDjSoHcg1w2oIyAUODg5gARCNzUVIBrUCuVYYhjx//pzhwIEDYAEQDeJjA1CDWIAGNQK59jBxRuSABbkAlwHIgIeHh2HWrFn/1NTU2oDcvSgBS4wBSC5iArqoCsj1YGIgEyAZVMoEchqlBjEB/cZAiUHg2AEGznpKDAImxOeM////B4VLKtBvEUCngZ1ILKivr3/u6+ubBzJAGZQ9gC5aQoqLgAY8BhkAZL4BuQQkxgXE34A4BuiiZEIuAhrwEGhAEZD5DpzYoIaA2UAM4kQADUrHZRDUgAIg8wO2XAwzbQXQa5OweQ1owB10AyA6gS7BgX1u3ry5397eHow3bdo0EyjGi00tQIABANPgyAH1q1eaAAAAAElFTkSuQmCC");
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        text-indent: 30px;
+      }
+
+
+
+/* 
+    @Side Gadgets      
+      @ Layout-> sidbar-right-1
+	    @ Discription: BlogSearch :  Searching Engine Style
+
+	    (Inputbox and button Image)    
+
+*/
+
+      .BlogSearch td.gsc-input {
+        padding-right: 20px;
+      }
+      .BlogSearch input.gsc-input {
+        padding: 6px 0;
+        margin: 0;
+      }
+
+/* 
+    @Side Gadgets      
+      @ Layout-> sidbar-right-1
+	    @ Discription:
+            BlogSearch :  Searching Engine Style
+            Button Image
+            How to make button image
+            1. Make button image (32x32, 8bit)
+            2. Convert to base64 (e.g., https://www.base64-image.de)
+            3. Paste it below
+               data:image/png;base64,
+              
+*/
+      .BlogSearch td.gsc-search-button {
+        background-image: -webkit-linear-gradient(top,rgba(226,226,226,.14),rgba(34,34,34,.14));
+        background-color: #5e94ff;
+        border: 1px solid #5e94ff;
+        border-radius: 2px;
+        width: 45px;
+      }
+
+
+      .BlogSearch input.gsc-search-button {
+        text-indent: -9999px;
+        background: url("data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQtJREFUeNpi/P//PwMlgAmLWBQQrwDip0D8EIiXAnEgThNALkDC8//jBnPQ1IIxMicZpOrv378/du/e3R8UFBQSGRkZdvjw4alAsd9QQ0LwGbALpGLr1q3tQIdJATE7EHMAseyhQ4cmQQ1Yh8sAdqjtvz08PBTQvVlUVKQPNeA1ugEogcjIyPg/MDDwKboBvr6+MDE2fIF4AGTFnz9/EtHV/Pr1qxDqgi0EA/Hfv39fgFQCEPMDsSgQZwLFvj99+hQciOiWo0fLIjzR+B8auFL4DIC5BOTUj9BAA4V8FFQDskFg9YzEJmVgADP8R1IM5EsDuc9IMgDmCmRhJlIzDyPMJBifFrmRJAAQYABIl4BFtRdyJgAAAABJRU5ErkJggg==") center center no-repeat;
+        display: block;
+        margin: auto;
+        border: none;
+        height: 100%;
+      }
+
+
+/*
+    @Post Gadgets      
+      @ Layout-> Post -> footer (Post Lables Display)
+	    @ Discription:	Div Padding Control
+          top right bottom left       
+          .post-footer-line.post-footer-line-2  --> Tags (Post Label)   
+
+*/
+    .post-footer-line.post-footer-line-2{
+        padding: 8px 0px 5px 0px;
+
+    }
+
+/*
+
+    @Post Gadgets      
+      @ Layout-> Post -> footer (Post Lables Display)
+      @ Discription:	Post Tag Style (Div)
+          e.g Tags: AM437x , Optimization , RAM
+
+*/
+    .post-labels {		
+		  position: relative;
+      padding: 5px 10px 5px 10px;
+		  left: 25px;
+		  font: normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+		  border: 1px solid #f4d3cc;
+
+        -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+        -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+        -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+        box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -goog-ms-border-radius: 5px;
+        border-radius: 5px;	
+     }
