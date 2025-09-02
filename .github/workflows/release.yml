@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: "20"
 
-      - run: npm ci
+      - run: npm install
       - name: Build (with tag-derived version)
         run: npm run release
 
