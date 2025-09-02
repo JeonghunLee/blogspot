@@ -2,6 +2,7 @@
 import { build } from "esbuild";
 import { mkdirSync, copyFileSync } from "fs";
 import { join } from "path";
+import { readFileSync, writeFileSync } from "fs";
 
 const outDir = "dist";
 mkdirSync(outDir, { recursive: true });
@@ -40,5 +41,14 @@ if (version !== "dev") {
     join(outDir, `jeonghun-v${version}.js`)
   );
 }
+
+
+// 3) Blogger Release HTML
+if (version !== "dev") {
+  const template = readFileSync("src/html/release.html", "utf8");
+  const html = template.replace(/\$\{version\}/g, version);
+  writeFileSync(join(outDir, "release.html"), html, "utf8");
+}
+
 
 console.log("Built:", { version });

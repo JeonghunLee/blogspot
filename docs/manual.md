@@ -23,7 +23,10 @@
 
 </br>
 
- Google Blog Theme과 My Google Blog를 관리하는 게 목표
+Google Blog Theme과 My Google Blog를 관리하는 게 목표
+
+* Setting 
+![](./imgs/github_00.png)
 
 
 </br>
@@ -33,16 +36,25 @@
 
 </br>
 
+* 최종 확인 후
+    https://github.com/JeonghunLee/blogspot/tree/gh-pages
+
+
 * 항상 최신 추적
 ```
-<link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-latest.css?v=20250902.1">
-<script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-latest.js?v=20250902.1"></script>
+<!-- Jeonghun's Javascript/css  -->
+    <script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-latest.js?v=20250902.1"></script>
+    <link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-latest.css?v=20250902.1"></link>
+
 ```
 
 * 문제 시 즉시 롤백 (버전 고정 사용)
 ```
-<link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-v1.0.0.css">
-<script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-v1.0.0.js"></script>
+    <!-- Jeonghun's Javascript/css Start -->
+    <script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-v0.0.3.js"></script>
+    <link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-v0.0.3.css"></link>
+    <!-- Jeonghun's Javascript/css End -->    
+
 ```
 
 </br>
