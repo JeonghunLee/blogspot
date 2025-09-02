@@ -35,14 +35,14 @@
 
 * 항상 최신 추적
 ```
-<link rel="stylesheet" href="https://{username}.github.io/{repo}/jeonghun-latest.css?v=20250902.1">
-<script defer src="https://{username}.github.io/{repo}/jeonghun-latest.js?v=20250902.1"></script>
+<link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-latest.css?v=20250902.1">
+<script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-latest.js?v=20250902.1"></script>
 ```
 
 * 문제 시 즉시 롤백 (버전 고정 사용)
 ```
-<link rel="stylesheet" href="https://{username}.github.io/{repo}/jeonghun-v1.0.0.css">
-<script defer src="https://{username}.github.io/{repo}/jeonghun-v1.0.0.js"></script>
+<link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-v1.0.0.css">
+<script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-v1.0.0.js"></script>
 ```
 
 </br>
