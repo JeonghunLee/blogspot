@@ -4,6 +4,10 @@
 
 Google Blog의 나만의 Java Script 과 나만의 CSS 적용하여 사용 중 이를 버전별로 관리   
 
+* 맞춤설정 
+    * HTML 수정     
+    ![](./imgs/blogger_00.png)
+
 </br>
 
 
