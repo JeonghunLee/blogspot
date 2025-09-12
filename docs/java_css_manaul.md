@@ -10,6 +10,19 @@ Google Blog의 나만의 Java Script 과 나만의 CSS 적용하여 사용 중 �
 
 </br>
 
+## 전체구조      
+
+</br>
+
+```
+src/
+    css/index.css     --> 각 Blog의 HTML 분석 후 각 부분 변경 
+    js/index.js       --> 각 Blog 의 HTML 분석 후 각 부분 변경   (세련미를 주기위해 sliding 방식사용)   
+    html/releae.html --> 최종 releas format 
+```
+
+</br>
+
 
 ## Github Pages 연동   
 
