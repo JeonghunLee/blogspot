@@ -1,7 +1,12 @@
-# Backup
+# Medium   
 
+</br>
 
-* link_imgs/x_32x32.png
+[Go Back](../link_manual.md#step4-make-link-based-on-base64)
+
+</br>
+
+* [link_imgs/medium_serach_32x32.png](../link_imgs/medium_serach_32x32.png)
 ```
 <!--  32x32 Medium Start -->
 
