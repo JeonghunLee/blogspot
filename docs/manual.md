@@ -42,6 +42,8 @@ Github Pages 와 전부 Github Action으로 Package 화 진행하여 간단히 B
 필요한 기능들을 JavaScript 과 CSS로 직접 구현을 해서 넣으나,               
 현재 관리하기가 너무 힘들어 이부분 Version 기능으로 지속적인 Upgrade 방식     
 
+[Link 관리](./link_manual.md)       
+
 </br>
 
 ## Github Pages 연동   
