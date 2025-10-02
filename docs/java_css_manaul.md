@@ -57,10 +57,18 @@ Google Blog Theme과 My Google Blog를 관리하는 게 목표
 
 </br>
 
-* **변경방식**   
-    * latest version : Blog에서 수정할 필요 없이 쉽게 변경 
+Google Blog에서 가져다 쓸 Javascript와 CSS를 의미하며, 이곳에서는 배포버전의 방식   
+
+</br>
+
+* **변경방식(배포방법)**   
+    * latest version : **Blog에서 수정할 필요 없이 쉽게 변경**  
     * version 명시 : 매번 Blog에서 특정 버전으로 변경    
 
+
+</br>
+
+각 배포방법을 2가지 제공하며, 가급적 Latest를 써야 Bloger에서 수정할 필요가 없다       
 
 </br>
 
