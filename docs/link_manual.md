@@ -10,6 +10,10 @@
 
 </br>
 
+간혹, 32x32 제약 때문에 Image가 너무 손상되는 경우 image에서 크게 하고 직접 사용하자 
+
+</br>
+
 ## STEP.1 Find Image
 
 </br>
@@ -46,6 +50,7 @@
 * Backup       
     * [Medium](./links/base64_medium.md)       
     * [Twitter](./links/base64_twitter.md)    
+    * [ALL](./links/base64_all.md)        
 
 
 </br>
