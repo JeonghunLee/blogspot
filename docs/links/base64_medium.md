@@ -6,7 +6,7 @@
 
 </br>
 
-* [link_imgs/medium_serach_32x32.png](../link_imgs/medium_serach_32x32.png)
+* [imgs/link_imgs/medium_serach_32x32.png](../imgs/link_imgs/medium_serach_32x32.png)
 ```
 <!--  32x32 Medium Start -->
 

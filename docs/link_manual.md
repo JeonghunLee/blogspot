@@ -10,7 +10,9 @@
 
 </br>
 
-간혹, 32x32 제약 때문에 Image가 너무 손상되는 경우 image에서 크게 하고 직접 사용하자 
+> [!TIP]      
+> 간혹, 32x32 제약 때문에 Image가 너무 손상되는 경우 image에서 크게 하고 직접 사용하자 
+>
 
 </br>
 
@@ -18,7 +20,7 @@
 
 </br>
 
- ![](./link_imgs/x_serach.png)
+ ![](./imgs/link_imgs/x_serach.png)
 
 
 </br>
@@ -27,7 +29,7 @@
 
 </br>
 
-![](./link_imgs/x_32x32.png) 
+![Example](./imgs/link_imgs/32x32/x_32x32.png) 
 
 * How to resize 32x32            
     https://www.iloveimg.com/resize-image

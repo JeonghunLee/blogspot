@@ -21,7 +21,7 @@ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAgCAMAAACvkzHFAAAAIGNIU
 
 ```
 
-* [link_imgs/x_32x32.png](../link_imgs/x_32x32.png)
+* [imgs/link_imgs/x_32x32.png](../imgs/link_imgs/x_32x32.png)
 ```
 <!--  32x32 Twitter Start -->
 
