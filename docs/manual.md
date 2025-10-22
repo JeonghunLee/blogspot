@@ -28,8 +28,12 @@
 
 </br>
 
+## 변경 전 관련 테스트 
 
-**처음 Gist로 관리할 생각도 했으나, Version 관리가 안됨** 
+</br>
+
+> [!NOTE]  
+> **처음 Gist로 관리할 생각도 했으나, Version 관리가 안됨** 
 
 </br>
 
@@ -47,8 +51,14 @@ Github Pages 와 전부 Github Action으로 Package 화 진행하여 간단히 B
 
 * 각 관리 방법 
     * [Link 관리](./link_manual.md)        
-    * [Java Script and CSS 관리](java_css_manaul.md)        
+    * [Java Script and CSS 관리](java_css_manaul.md)      
+        * 특히 주의 Blog의 모든 폰트 와 포맷이 변경되므로, 주의!!!!!!
 
+</br>
+
+> [!WARNING]  
+> 특히, CSS 는 주의 해야 하며, 현재 중복사용이라, 이후/이전에 따라도 민감하며, 현재도 좀 오작동   
+>
 
 </br>
 
