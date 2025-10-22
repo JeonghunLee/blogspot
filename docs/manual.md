@@ -41,7 +41,14 @@
 
 </br>
 
-Github Pages 와 전부 Github Action으로 Package 화 진행하여 간단히 Blog에 삽입구조       
+* 변경 후 Github Release 와 Google Blogger 연동    
+    Github Pages 와 전부 Github Action으로 Package 화 진행하여 간단히 Blog에 삽입구조 변경완료       
+    
+</br>
+
+> [!IMPORTANT]  
+>  Markdown을 어떻게 쉽게 쓸 방법과 CSS를 좀 세련되게 할 방법?     
+
 
 </br>
 
@@ -67,12 +74,10 @@ Github Pages 와 전부 Github Action으로 Package 화 진행하여 간단히 B
         * Blgger에서 Markdown이 안되니, 이를 Github Pages로 연결??   
 </br>
 
-> [!IMPORTANT]  
->  Markdown을 어떻게 쉽게 쓸 방법과 CSS를 좀 세련되게 할 방법?     
 
 </br>
 
-> [!CAUTION]
+> [!CAUTION]         
 > 매번 느끼지만, 조심해서 써야, 각 글이나, 표 등, 다양한 것들이 폰트 , 그림 문제가 생감   
 
 

@@ -8,6 +8,8 @@
     3. image cut and resize 32x32         
     4. make a link and img tag below    
 
+![](./imgs/blogger_link_00.png)
+
 </br>
 
 > [!TIP]      
@@ -24,14 +26,17 @@
 
 </br>
 
+Seach following images (like icons) in Google                            
  ![](./imgs/link_imgs/x_serach.png)
 
 
 </br>
 
-## STEP.2 Resize 32x32 Png   
+## STEP.2 Resize 32x32 Png (Option)       
 
 </br>
+
+Select one of them and then Resize it 
 
 ![Example](./imgs/link_imgs/32x32/x_32x32.png) 
 
@@ -53,7 +58,7 @@
 
 </br>
 
-* Backup       
+* Backup Images       
     * [Medium](./links/base64_medium.md)       
     * [Twitter](./links/base64_twitter.md)    
     * [ALL](./links/base64_all.md)        
