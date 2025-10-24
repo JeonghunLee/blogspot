@@ -111,7 +111,7 @@ src/
 
 </br>
 
-* Build 
+* Build       
     아래와 같이 다 생성되어지짐 
 ![](./imgs/github_action_02.png)
 
@@ -128,7 +128,7 @@ src/
 
 </br>
 
-Google Blog Theme과 My Google Blog를 관리하는 게 목표
+Github Page를 연동하여, Blogger에서 가져다 사용해야 하므로 반드시 확인    
 
 * Setting 
 ![](./imgs/github_00.png)
@@ -136,24 +136,27 @@ Google Blog Theme과 My Google Blog를 관리하는 게 목표
 
 </br>
 
-## Blogger 변경 전 확인   
+## Github 배포확인  
 
 
 </br>
 
-* Release  후 변경확인  
+* **Github Page 확인(gh-pages)**        
     * 아래 최종 File 들 확인       
-    https://github.com/JeonghunLee/blogspot/tree/gh-pages
+    https://github.com/JeonghunLee/blogspot/tree/gh-pages    
 ![](./imgs/github_01.png)
 
 </br>
 
-* Release          
-    https://github.com/JeonghunLee/blogspot/releases
+
+* **Release(옵션)**
+    * 상위에서 언급되어진 files들이 업데이트          
+    * https://github.com/JeonghunLee/blogspot/releases
 
 </br>
 
-## Blogger 변경 방법 
+
+## Blgger 배포 
 
 </br>
 
@@ -178,12 +181,13 @@ Google Blog에서 가져다 쓸 Javascript와 CSS를 의미하며, 이곳에서�
 
 * 항상 **최신 추적**
     * 아래와 같이 버전에 상관 없이 적용방법 
+    * [gh-pages](https://github.com/JeonghunLee/blogspot/tree/gh-pages/)    
+    * [release.html](https://github.com/JeonghunLee/blogspot/tree/gh-pages/release.html)    
 ```
-    <!-- Jeonghun's Javascript/css  -->
+    <!-- Jeonghun's Github Page v0.0.7 Start -->
     <script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-latest.js"></script>
     <link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-latest.css"></link>
-    <!-- Jeonghun's Javascript/css End -->      
-
+    <!-- Jeonghun's Github Page v0.0.7 End -->
 ```
 
 </br>
@@ -196,12 +200,12 @@ Google Blog에서 가져다 쓸 Javascript와 CSS를 의미하며, 이곳에서�
     * 특정 버전으로 관리 방법    
     * [gh-pages](https://github.com/JeonghunLee/blogspot/tree/gh-pages/)    
     * [release.html](https://github.com/JeonghunLee/blogspot/tree/gh-pages/release.html)
-```
-    <!-- Jeonghun's Javascript/css Start -->
-    <script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-v0.0.3.js"></script>
-    <link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-v0.0.3.css"></link>
-    <!-- Jeonghun's Javascript/css End -->    
 
+```
+    <!-- Jeonghun's Github Page v0.0.7 Start -->
+    <script defer src="https://JeonghunLee.github.io/blogspot/jeonghun-v0.0.7.js"></script>
+    <link rel="stylesheet" href="https://JeonghunLee.github.io/blogspot/jeonghun-v0.0.7.css"/>
+    <!-- Jeonghun's Github Page v0.0.7 End -->
 ```
 
 
