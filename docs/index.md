@@ -2,29 +2,26 @@
 
 </br>
 
-
-
 * **목적**       
 나만의 Google Blog를 만들기 위해                  
     * 각 Java Script 과 CSS 다 수정하여, 나의 Blog를 관리 진행했으나, 너무 복잡해짐      
     * 이를 쉽게 외부에서 관리로 변경  
     * 최종 Release 에서 이를 가져다 참조 형태로 사용하기로 전체를 변경함    
 
-
-
 </br>
 
 * **변경 전**          
-이전에 직접 다 Goggle Blog를 직접 손수 수정했으나, 모든 것을 자동화 Version 관리 목적으로 GitHub로 이전하는 게 목표  
-지금봐도 복잡함  T.T          
+이전에 직접 다 Goggle Blog를 직접 손수 수정했으나, 모든 것(JavaScript 과 CSS)을 
+자동화 Version 관리 목적으로 GitHub로 이전하는 게 목표  
+즉, 변경즉시, 각 Javascript 과 CSS를 외부에서 모듈형태로 가져다 쓰는 것으로 변경             
 
 </br>
 
 
 * **변경 후**               
-    외부에 Java Script 과 CSS를 처리하고 Version 관리를 진행           
+외부(Github Paage)에 Java Script 과 CSS를 가져와서 Blogger 처리하고 Version 관리를 진행           
     * 장점:  Version 관리와 소스관리 용이       
-    * 단점:  Github가 문제 생기면 블로그도 문제생김  T.T             
+    * 단점:  Github가 문제 생기면 블로그도 문제생김 
 
 </br>
 
@@ -34,16 +31,23 @@
 
 [Blogger 모듈화 수정 전/후 ](blogger_info.md) 
 
+
 </br>
 
 ## My Google Blog
 
 </br>
 
-* 각 Google Blog 관리 방법       
-    * [Link Gadget 관리](./link_manual.md)        
+* 각 Google Blog 관리 방법            
+    * [Github Action CI/CD Pages](github_action.md)
+        * Tag 기반으로 자동화(CI/CD) 후 Pages 배포           
     * [Java Script and CSS 관리](java_css_manaul.md)      
-        * 특히 주의 Blog의 모든 폰트 와 포맷이 변경되므로, 주의!!!!!!
+        * Google Blogger에서 확장 사용    
+        * 특히 주의 Blog의 모든 폰트 와 포맷이 변경되므로, 주의!!!!!!        
+    * [Link Gadget 관리](link_manual.md)       
+        * Link Gadget 는 현재 또 별도로 관리, 이유는 Image 때문에   
+        * 현재 Side bar 부터 각 CSS 상위에서 관리 
+
 
 </br>
 
