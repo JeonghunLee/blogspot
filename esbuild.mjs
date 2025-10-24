@@ -11,7 +11,7 @@ mkdirSync(outDir, { recursive: true });
 const gitTag = process.env.GITHUB_REF_NAME || "";
 const version = (gitTag.startsWith("v") ? gitTag.slice(1) : "") || process.env.VERSION || "dev";
 
-// 1) CSS
+// 1) Build CSS
 await build({
   entryPoints: ["src/css/index.css"],
   outfile: join(outDir, "jeonghun-latest.css"),
@@ -26,7 +26,7 @@ if (version !== "dev") {
   );
 }
 
-// 2) JS
+// 2) Build JavaScript
 await build({
   entryPoints: ["src/js/index.js"],
   outfile: join(outDir, "jeonghun-latest.js"),

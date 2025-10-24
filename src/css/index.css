@@ -6,9 +6,10 @@
 
 /* 
    for Code Source Style (All code blocks)
-
-   pre tag class
+      pre tag class  
          top right bottom left
+      e.g.
+         <pre class="codeprint"></pre>
 */ 
   .codeprint{
         margin: 0px 50px 0px 30px;
@@ -26,6 +27,10 @@
 /*
     My Table Style (Jeonghun's Table Style) 
       table, th, td  class 
+      e.g.
+         <table class="table_wiki"></table>
+         <th class="th_wiki"></th>
+         <td class="td_wiki"></td>  
 */
 
 	.table_wiki {
@@ -75,17 +80,17 @@
 
 
 /* 
-    @Side Gadgets
+    @Side Gadgets (Side Bar Overall)
       @ Layout-> sidbar-right-1
       @ Discription: Side Bar Margin Control  
-      Layout- Sidbar Right 1
-      
-      1. HTML(Link) 
-      2. BlogSearch1
-      3. Translate1 
-      4  ...    
-       top right bottom left
+        
+        Layout- Sidbar Right 1
+          1. Gadget1
+          2. Gadget2
+          3. Gadget3
 
+        margin  : top right bottom left
+        padding : top right bottom left
 */
       #sidebar-right-1 {
         margin:  5px 0px 0px   5px;
@@ -94,33 +99,38 @@
 
 
 /*
-    @Side Gadgets      
+    @Side Gadgets (Structure)     
       @ Layout-> sidbar-right-1
       @ Discription: All Custom Gadgets
       
-      Jeonghun's SIDE-MENUS 구성                  
-			Gadget          :   Name                 
+          Jeonghun's SIDE-MENUS 구성 (default Setup)                 
+			    Gadget          :   Name                 
 			--------------------------------------------------------
-      		HTML			: LINK  (included icons in this Gadget)
-      		BlogSearch1	    : BlogSearch
-      		Translate1      : Translate
-      		Label1          : Tags  ►
-      		BlogArchive1    : Recent Lists  ►
-      		PopularPosts1   : Popular Posts  ►
-      		Stats1          : Page View
-      		Label2          : Labels (Clould)
+      		#HTML1          : 1.LINK  (included icons in this Gadget)
+      		#BlogSearch1	  : 2.BlogSearch
+      		#Translate1     : 3.Translate
+      		#Label1         : 4.Tags  ►
+      		#BlogArchive1   : 5.Recent Lists  ►
+      		#PopularPosts1  : 6.Popular Posts  ►
+      		#Stats1         : 7.Page View
+      		#Label2         : 8.Labels  (Display All Label)
+      -------------------------------------------------------
+                            9. Follow
+                           10. Adsense          		
+*/         
 
-for making underline 
-
-here is crome setting but need IE Setting more 
-
-
-       margin  : top right bottom left  (clockwise)
-       padding : top right bottom left  (clockwise) 
-
-       border-bottom-style  
+/*
+    @Side Gadgets (General Rules)      
+        for making underline 
+            here is crome setting but need IE Setting more 
+        margin  : top right bottom left  (clockwise)
+        padding : top right bottom left  (clockwise) 
+        border-bottom-style  
 
 */
+
+/* 1.Link  */
+
       #HTML1{
         margin:  0px 0px 0px 0px;
         padding: 0px 0px 10px 0px;
@@ -132,6 +142,8 @@ here is crome setting but need IE Setting more
         border-bottom-right-radius:0em;
         border-bottom-left-radius:0em;
       }
+
+/* 2.Blog Search  */
 
       #BlogSearch1{
         margin:  0px 0px 0px 0px;
@@ -145,6 +157,7 @@ here is crome setting but need IE Setting more
         border-bottom-left-radius:0em;
       }
 
+/* 3.Translate  */
 
       #Translate1{
         margin:  0px 0px 0px 0px;
@@ -158,7 +171,7 @@ here is crome setting but need IE Setting more
         border-bottom-left-radius:0em;
       }
 
-/* Tags */
+/* 4.Tags */
 
       #Label1{
         margin:  0px 0px 0px 0px;
@@ -172,7 +185,7 @@ here is crome setting but need IE Setting more
         border-bottom-left-radius:0em;
       }
 
-/* Recent Lists  */
+/* 5.Recent Lists  */
 
       #BlogArchive1{
         margin:  0px 0px 0px 0px;
@@ -186,7 +199,7 @@ here is crome setting but need IE Setting more
         border-bottom-left-radius:0em;
       }
 
-/* Popular Posts */
+/* 6.Popular Posts */
 
       #PopularPosts1 {
         margin:  0px 0px 0px 0px;
@@ -201,7 +214,7 @@ here is crome setting but need IE Setting more
       }
 
 
-/*  Page View */
+/*  7.Page View */
 
       #Stats1{
         margin:  0px 0px 0px 0px;
@@ -215,7 +228,8 @@ here is crome setting but need IE Setting more
         border-bottom-left-radius:0em;
       }
 
-/* Last Gadget  */
+/* 8.Label (Display All Label) */
+
       #Label2 {
         margin:  0px 0px 0px 0px;
         padding: 0px 0px 10px 0px;
@@ -228,13 +242,17 @@ here is crome setting but need IE Setting more
       @ Layout-> sidbar-right-1
       @ Discription: Display Control 
 
-        this controls to list labels or posts with $(this).siblings().slideToggle(200)
+      this controls to list labels or posts with $(this).siblings().slideToggle(200)      
+      control display block or none widget-content
 
-	      1. Label1 
-        2. BlogArhive 
-        3. PopularPosts  
-        4. Label2 
-
+          Jeonghun's SIDE-MENUS 구성
+        	Gadget          :   Name                 
+			--------------------------------------------------------
+      		#Label1         : 4.Tags  ►
+      		#BlogArchive1   : 5.Recent Lists  ►
+      		#PopularPosts1  : 6.Popular Posts  ►      		
+      		#Label2         : 8.Labels  (Display All Label)
+      -------------------------------------------------------
 */
       #Label1 .widget-content {
         display: none;
@@ -257,24 +275,15 @@ here is crome setting but need IE Setting more
     @Side Gadgets      
       @ Layout-> sidbar-right-1
       @ Discription: 	Hiding Title or H2 comments
-	          display none , 
-           remove Title name  
+	      display none , 
+        remove Title name (각 Title 명칭 제거,H2 태그 제거) 
  */
-      .Translate .title {
-        display: none;
-      }
-
-      .Stats h2 {
-        display: none;
-      }
-
-      .BlogSearch .title {
-        display: none;
-      }
-
-      #Label2  h2 {
-        display: none;
-      }
+    .Translate .title,
+    .Stats h2,
+    .BlogSearch .title,
+    #Label2 h2 {
+      display: none;
+    }
 
 
 
@@ -309,14 +318,13 @@ here is crome setting but need IE Setting more
       @ Layout-> sidbar-right-1
       @ Discription:   h2: Title Image setting
 	      #Label1        h2 : image  (left Image) 
-        BlogArhive     h2 : image
-	      PopularPosts   h2 : image  
+        BlogArhive     h2 : image  (left Image)
+	      PopularPosts   h2 : image  (left Image)
         background : images 
 
         32x32 : 8bit
 
 */
-
 
       #Label1 h2 {
         background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNpiNDY23s9AAMycOfM7UF05kHkZmzwTMkdSUhKrIcXFxZy3bt3qBjIN8RrS09PDsHnzZjCNDr58+cKQlpbGDjSoHcg1w2oIyAUODg5gARCNzUVIBrUCuVYYhjx//pzhwIEDYAEQDeJjA1CDWIAGNQK59jBxRuSABbkAlwHIgIeHh2HWrFn/1NTU2oDcvSgBS4wBSC5iArqoCsj1YGIgEyAZVMoEchqlBjEB/cZAiUHg2AEGznpKDAImxOeM////B4VLKtBvEUCngZ1ILKivr3/u6+ubBzJAGZQ9gC5aQoqLgAY8BhkAZL4BuQQkxgXE34A4BuiiZEIuAhrwEGhAEZD5DpzYoIaA2UAM4kQADUrHZRDUgAIg8wO2XAwzbQXQa5OweQ1owB10AyA6gS7BgX1u3ry5397eHow3bdo0EyjGi00tQIABANPgyAH1q1eaAAAAAElFTkSuQmCC");
@@ -393,7 +401,7 @@ here is crome setting but need IE Setting more
 
 /*
     @Post Gadgets      
-      @ Layout-> Post -> footer (Post Lables Display)
+      @ Layout-> Post(기본) -> footer (Post Lables Display)
 	    @ Discription:	Div Padding Control
           top right bottom left       
           .post-footer-line.post-footer-line-2  --> Tags (Post Label)   
@@ -405,12 +413,10 @@ here is crome setting but need IE Setting more
     }
 
 /*
-
     @Post Gadgets      
-      @ Layout-> Post -> footer (Post Lables Display)
+      @ Layout-> Post(기본) -> footer (Post Lables Display)
       @ Discription:	Post Tag Style (Div)
           e.g Tags: AM437x , Optimization , RAM
-
 */
     .post-labels {		
 		  position: relative;
