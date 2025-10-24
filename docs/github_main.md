@@ -92,7 +92,7 @@ src/
           # 이 액션은 dist 내용을 gh-pages 브랜치에 푸시합니다.
           # 저장소 Settings → Pages → Branch: gh-pages / root 로 설정.
 
-      # 2) 릴리즈 자산 업로드 (버전 고정본 포함)
+      # 2) Release Upload 
       - name: Upload versioned assets to Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
