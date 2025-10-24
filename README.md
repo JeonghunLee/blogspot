@@ -21,7 +21,7 @@
 
 
 * **Manaul 및 관련 Manaul**
-    * [기본 Manual](docs/manual.md)
+    * [기본 Manual](docs/index.md)
     * [Medium](https://github.com/JeonghunLee/Medium/tree/main/blogspot) 별도 Backup  
     * Google Blog 파트에 별도 메뉴얼로 Package 관리정리  
 

@@ -18,7 +18,7 @@
 
 </br>
 
-[Go Back Manaul](manual.md)
+[Go Back Manaul](index.md)
 
 </br>
 
