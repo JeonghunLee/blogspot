@@ -62,7 +62,7 @@ src/
 
 </br>
 
-## Github Action 
+## Github Action 전체동작 
 
 </br>
 
@@ -104,6 +104,23 @@ src/
             dist/jeonghun-latest.js
 ```
 ![](./imgs/github_action_01.png)
+
+</br>
+
+### Github Action (latest문제)
+
+</br>
+
+* Build 
+    아래와 같이 다 생성되어지짐 
+![](./imgs/github_action_02.png)
+
+</br>
+
+* 주의 
+    * 이전 Version 과 큰 차이가 없다면, latest.x 업데이트가 아래와 같이 되지 않음 
+    * 그나마 rename 했기 때문에 변경되어짐   
+![](./imgs/github_action_03.png)
 
 </br>
 
