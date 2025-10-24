@@ -19,6 +19,8 @@ await build({
   minify: true,
   loader: { ".css": "css" }
 });
+
+// 1) Build CSS - versioned copy
 if (version !== "dev") {
   copyFileSync(
     join(outDir, "jeonghun-latest.css"),
@@ -35,6 +37,8 @@ await build({
   platform: "browser",
   target: ["es2018"]
 });
+
+// 2) Build JavaScript - versioned copy
 if (version !== "dev") {
   copyFileSync(
     join(outDir, "jeonghun-latest.js"),
