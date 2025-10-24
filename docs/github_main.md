@@ -1,12 +1,17 @@
-# Java Script 과 CSS 관리   
+# Github 관리  
 
 </br>
 
-Google Blog의 나만의 Java Script 과 나만의 CSS 적용하여 사용 중 이를 버전별로 관리   
+* Github Action 기반의  CI/CD/Deploy 자동화 
+    * Github Action 에서 아래의 작업을 자동화 
+        * v Tag가 있을 경우 진행   
+        * 먼저 항상 가상으로 테스트 진행   
 
-* 맞춤설정 
-    * HTML 수정     
-    ![](./imgs/blogger_00.png)
+</br>
+
+* Node.js에서 ESM(ECMAScript Module) 의 Package 이용 
+    * esbuild.mjs
+    * package.json 
 
 </br>
 
@@ -24,6 +29,18 @@ src/
     js/index.js       --> 각 Blog 의 HTML 분석 후 각 부분 변경   (세련미를 주기위해 sliding 방식사용)   
     html/releae.html --> 최종 releas format 
 ```
+
+</br>
+
+* Input File 
+    * css/index.css
+    * js/index.js 
+
+</br>
+
+* Output File and Branch     
+    * html/release.html 
+    * gp-pages     
 
 </br>
 

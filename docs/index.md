@@ -25,31 +25,22 @@
 
 </br>
 
-## Google Blogger 관련사항 
+## Github 관리 
 
 </br>
 
-[Blogger 모듈화 수정 전/후 ](blogger_info.md) 
-
-
-</br>
-
-## My Google Blog
+[Github 관리](./github_main.md)
 
 </br>
 
-* 각 Google Blog 관리 방법            
-    * [Github Action CI/CD Pages](github_action.md)
-        * Tag 기반으로 자동화(CI/CD) 후 Pages 배포           
-    * [Java Script and CSS 관리](java_css_manaul.md)      
-        * Google Blogger에서 확장 사용    
-        * 특히 주의 Blog의 모든 폰트 와 포맷이 변경되므로, 주의!!!!!!        
-    * [Link Gadget 관리](link_manual.md)       
-        * Link Gadget 는 현재 또 별도로 관리, 이유는 Image 때문에   
-        * 현재 Side bar 부터 각 CSS 상위에서 관리 
-
+## Blogger 관리 
 
 </br>
+
+[Blogger 관리](blogger_info.md) 
+
+</br>
+
 
 > [!WARNING]  
 > 특히, CSS 는 주의 해야 하며, 현재 중복사용이라, 이후/이전에 따라도 민감하며, 현재도 좀 오작동   

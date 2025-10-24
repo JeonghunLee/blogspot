@@ -9,6 +9,26 @@
 
 [Go To Index](index.md)
 
+## Blogger-Setup
+
+</br>
+
+* Github 배포 후 관리 
+    * [Blogger 관리 v1](./blogger_main_v1.md)     
+    * [Blogger 관리 v2](./blogger_main_v2.md) 
+
+</br>
+
+## Blogger-LinkSetup
+
+</br>
+
+* [Link Gadget 관리](blogger_link_gardget.md)       
+    * Link Gadget 는 현재 또 별도로 관리, 이유는 Image 때문에   
+    * 현재 Side bar 부터 각 CSS 상위에서 관리 
+
+</br>
+
 ## 변경 전 관련 테스트 
 
 </br>
@@ -64,6 +84,8 @@
 
 
 </br>
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 </br>
 
-[Go Back](../link_manual.md#step4-make-link-based-on-base64)
+[Go Back](../blogger_link_gardget.md#step4-make-link-based-on-base64)
 
 </br>
 

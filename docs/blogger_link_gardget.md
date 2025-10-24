@@ -18,7 +18,7 @@
 
 </br>
 
-[Go Back Manaul](index.md)
+[Go Back Link Setup](./blogger_info.md#blogger-linksetup)      
 
 </br>
 
