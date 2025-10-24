@@ -47,8 +47,9 @@ if (version !== "dev") {
 if (version !== "dev") {
   const template = readFileSync("src/html/release.html", "utf8");
   const html = template.replace(/\$\{version\}/g, version);
+  
+  //dist/release.html 생성
   writeFileSync(join(outDir, "release.html"), html, "utf8");
 }
-
 
 console.log("Built:", { version });
