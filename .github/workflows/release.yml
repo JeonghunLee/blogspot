@@ -40,4 +40,6 @@ jobs:
         with:
           files: |
             dist/jeonghun-v*.css
+            dist/jeonghun-latest.css
             dist/jeonghun-v*.js
+            dist/jeonghun-latest.js
