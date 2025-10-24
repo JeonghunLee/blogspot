@@ -15,6 +15,18 @@
 
 </br>
 
+* package.json (esbuild.mjs 자동실행)
+```
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "node esbuild.mjs",
+    "release": "npm run clean && npm run build"
+  }
+}
+```
+
+</br>
+
 [Go Back Manaul](index.md)
 
 </br>
@@ -35,15 +47,65 @@ src/
 * Input File 
     * css/index.css
     * js/index.js 
+    * html/release.html    
+        * format 만 사용하고 version만 변경해서 기록   
 
 </br>
 
 * Output File and Branch     
-    * html/release.html 
-    * gp-pages     
+    * gp-pages
+        * jeonghun-latest.css
+        * jeonghun-latest.js
+        * jeonghun-v0.0.6.css
+        * jeonghun-v0.0.6.js
+        * release.html   // update release version    
 
 </br>
 
+## Github Action 
+
+</br>
+
+* package.json 
+    script 에 의해 자동실행  
+
+```
+      - run: npm install
+
+      # 0) Build Step (esbuild.mjs) 
+      #   esbuild -> package.json -> "release": "npm run clean && npm run build"
+      - name: Build (with tag-derived version)
+        run: npm run release
+```
+![](./imgs/github_action_00.png)
+
+</br>
+
+* gh-pages branch 
+```
+      # 1) gh-pages 브랜치로 dist 전체 업로드
+      - name: Deploy latest to Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          # 이 액션은 dist 내용을 gh-pages 브랜치에 푸시합니다.
+          # 저장소 Settings → Pages → Branch: gh-pages / root 로 설정.
+
+      # 2) 릴리즈 자산 업로드 (버전 고정본 포함)
+      - name: Upload versioned assets to Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/jeonghun-v*.css
+            dist/jeonghun-latest.css
+            dist/jeonghun-v*.js
+            dist/jeonghun-latest.js
+```
+![](./imgs/github_action_01.png)
+
+</br>
 
 ## Github Pages 연동   
 
