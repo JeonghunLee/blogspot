@@ -1,8 +1,10 @@
-/* === Jeonghun external CSS (same rules, ready to host) — 2025-09-02 === */
-/* Tip: keep this as your single source and link it in Blogger <head> with a version query (e.g., ?v=20250902) */
-
-
-/* === Jeonghun backup CSS (as-is) — 2025-09-02 === */
+/*!
+ * File: src/css/index.css
+ * Description: Jeonghun's Custom CSS for Blogger 
+ * - 최초 버전: 2025-09-02
+ * - 최종 수정: 2025-10-26
+ * - 작성자: Jeonghun
+ */
 
 /* 
    for Code Source Style (All code blocks)
@@ -23,60 +25,136 @@
         padding: 1em;
   }
 
+/*
+    for Table Icons  
+      e.g.         
+    • Point
+    ✓ Check
+    ✔ Heavy Check Mark
+    ✗ Cross
+    ✘ Heavy Cross Mark  
+    △ Triangle
+    ► Arrow Right
+    ▼ Down Triangle
+    ▲ Up Triangle
+    ◆ Black Diamond
+    ◀ Back
+    ◆ Diamond
+    ■ Square
+    ● Circle
+    ○ Hollow Circle
+    ★ Star
+    → Right Arrow
+    ← Left Arrow
+    ↑ Up Arrow
+    ↓ Down Arrow
+    ※ Reference
+*/
+
 
 /*
-    My Table Style (Jeonghun's Table Style) 
+    Table Style_1
       table, th, td  class 
       e.g.
          <table class="table_wiki"></table>
-         <th class="th_wiki"></th>
-         <td class="td_wiki"></td>  
+          1. text-align: center;
+          2. text-align: left;
+          3. text-align: right;
 */
 
-	.table_wiki {
-		background-color: #f8f9fa;
-		border-collapse: collapse;
-		border: 1px solid rgb(162, 169, 177);
-		color: #222222;
-		font-family: sans-serif; 
-		font-size: 14px; 
-		margin: 1em 0px;
-	}
+.table_wiki {
+	background-color: #f8f9fa;
+	border-collapse: collapse;
+	border: 1px solid rgb(162, 169, 177);
+	color: #222222;
+	font-family: sans-serif; 
+	font-size: 14px; 
+	margin: 1em 0px;
+	width: 100%;
+}
 
-	.th_wiki {
-		background-color: #eaecf0; 
-		border: 1px solid rgb(162, 169, 177); 
-		padding: 0.2em 0.4em; 
-		text-align: center;
-	}
-	.th_wiki_left {
-		background-color: #eaecf0; 
-		border: 1px solid rgb(162, 169, 177); 
-		padding: 0.2em 0.4em; 
-		text-align: left;
-	}
-	.th_wiki_right {
-		background-color: #eaecf0; 
-		border: 1px solid rgb(162, 169, 177); 
-		padding: 0.2em 0.4em; 
-		text-align: right;
-	}
-	
-	.td_wiki {
-		border: 1px solid rgb(162, 169, 177); 
-		padding: 0.2em 0.4em; 
-		text-align: center;
-	}  
-	.td_wiki_left {
-		border: 1px solid rgb(162, 169, 177); 
-		padding: 0.2em 0.4em; 
-		text-align: left;
-	}  
-	.td_wiki_right {
-		border: 1px solid rgb(162, 169, 177); 
-		padding: 0.2em 0.4em; 
-		text-align: right;
-	}  
+.table_wiki thead {
+	background: rgb(244, 246, 248);
+}
+
+/* 헤더 셀 스타일 */
+.table_wiki th {
+	background-color: #eaecf0; 
+	border: 1px solid rgb(162, 169, 177); 
+	padding: 0.2em 0.4em; 
+}
+
+/* 본문 셀 스타일 */
+.table_wiki td {
+	border: 1px solid rgb(162, 169, 177); 
+	padding: 0.2em 0.4em; 
+}
+
+
+/*
+    Table Style_2
+      table, th, td  class 
+      e.g.
+         <table class="table_general"></table>
+          1. text-align: center;
+          2. text-align: left;
+          3. text-align: right;         
+*/
+
+.table_general {
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table_general th,
+.table_general td {
+	border: 1px solid #aaa;
+	padding: 8px;
+}
+
+.table_general thead {
+	background: rgb(244, 246, 248);
+}
+
+/*
+    Table Style_3 (Navi
+      table, th, td  class 
+      e.g.
+         <table class="table_general"></table>
+          1. text-align: center;
+          2. text-align: left;
+          3. text-align: right;         
+*/
+
+
+.table_navi {
+	border: 1px solid #999;
+	border-collapse: collapse;
+	width: 100%;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+.table_navi th,
+.table_navi td {
+	border: 1px solid #999;
+	padding: 8px;
+}
+
+.table_navi thead {
+	background-color: #2d3e50;
+	color: white;
+	text-align: center;
+}
+
+.table_navi tbody tr:nth-child(even) {
+	background-color: #f5f7fa;
+}
+
+.table_navi tbody tr:nth-child(odd) {
+	background-color: white;
+}
 
 
 /* 

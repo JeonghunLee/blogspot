@@ -1,8 +1,12 @@
 /*!
- * Jeonghun index.js
- * - 역할: jQuery 로드(없으면), 위젯 토글(slideToggle), 웹/모바일 텍스트 교체
- * - 반응 속도: 200ms (SPEED 값으로 조정)
+ * File: src/js/index.js
+ * Description: Jeonghun's Custom Javascript for Blogger 
  * - 최초 버전: 2025-09-02
+ * - 최종 수정: 2025-10-26
+ * - 작성자: Jeonghun
+ *    - 역할: jQuery 로드(없으면), 위젯 토글(slideToggle), 웹/모바일 텍스트 교체
+ *    - 반응 속도: 200ms (SPEED 값으로 조정)
+
  */
 (function (w, d) {
   'use strict';
