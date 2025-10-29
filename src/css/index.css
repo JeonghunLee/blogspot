@@ -51,6 +51,30 @@
     ※ Reference
 */
 
+/*
+    Bold Weight Control  
+      e.g.
+      <b></b> , <strong></strong>
+*/
+
+/* 기본 bold 복구 */
+b, strong {
+  font-weight: 700 !important;
+}
+
+/* 링크 안의 볼드도 확실히 */
+a b, a strong {
+  font-weight: 700 !important;
+}
+
+/* 코드/프리 등은 굵기 유지(원치 않는 굵게 방지) */
+code b, code strong,
+pre b, pre strong,
+kbd b, kbd strong,
+samp b, samp strong {
+  font-weight: inherit !important;
+}
+
 
 /*
     Table Style_1 (Wiki Style)
