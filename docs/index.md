@@ -48,4 +48,12 @@
 
 </br>
 
+### Blogger 의 CSS
+
+</br>
+
+Table을 좀 세련되게 하려고 3개까지 추가한 상태 (class 쉽게 적용)   
+class 내부만 변경하면 되니, 이 부분 각 CSS 참조 
+
+</br>
 

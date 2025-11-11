@@ -2,7 +2,7 @@
 
 </br>
 
-이전의 나의 구글 Blogger 는 다 손으로 HTML 부분을 내가 직접 수정해서 거의 만들었으나,
+이전의 나의 구글 Blogger 는 다 손으로 HTML 부분을 내가 직접 수정해서 거의 만들었으나,      
 이제 쉽게 관리하도록 이를 모듈화를 하기로 결정   
 
 </br>
@@ -13,13 +13,21 @@
 
 </br>
 
-* Github 배포 후 관리 
+* **Github 배포 후 관리방법** 
     * [Blogger 관리 v1](./blogger_main_v1.md)     
-    * [Blogger 관리 v2](./blogger_main_v2.md) 
+    * [Blogger 관리 v2(Gadget분리)](./blogger_main_v2.md) 
+
+> [!NOTE]  
+> **현재 version2 사용중(반드시 Release 후 확인)** 
 
 </br>
 
 ## Blogger-LinkSetup
+
+</br>
+
+Blogger 의 Layout 에서 각 Component 를 현재 Gadget 이라고 하며, 
+각 Gadget도 CSS 에서 별도로 설정한다.
 
 </br>
 
@@ -29,7 +37,11 @@
 
 </br>
 
-## 변경 전 관련 테스트 
+## 변경 전/후 관련사항 
+
+</br>
+
+### 변경 전 관련 테스트 
 
 </br>
 
@@ -38,7 +50,7 @@
 
 </br>
 
-## 변경 후 중요성 
+### 변경 후 중요성 
 
 </br>
 
@@ -53,7 +65,7 @@
 
 </br>
 
-## 변경 후 작업사항 
+### 변경 후 작업사항 
 
 </br>
 
