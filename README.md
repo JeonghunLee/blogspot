@@ -21,9 +21,9 @@
 
 
 
-* **Manaul 및 관련 Manaul**
-    * [Google Blog(blogspot) 관리 Manual](docs/index.md)
-    * [Blogspot HTML Backup](https://github.com/JeonghunLee/Medium/tree/main/blogspot) 별도 Backup   
+* **Google Blogger(blogspot) 관련 Manaul 과 HTML Backup**
+    * [1. Manual - Google Blog(blogspot)](docs/index.md)
+    * [2. Backup - Blogspot HTML](https://github.com/JeonghunLee/Medium/tree/main/blogspot) 별도 Backup   
         * 추후 복구할 경우, 반드시 참조    
         * Google Blog 파트에 별도 메뉴얼로 Package 관리정리   
 
