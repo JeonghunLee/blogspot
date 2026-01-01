@@ -2,7 +2,12 @@
 
 </br>
 
-* Github Action 기반의  CI/CD/Deploy 자동화 
+* 기본동작방식 
+    * Github Action CI/CD 방식의 자동화 
+
+</br>
+
+* Github Action 동작 
     * Github Action 에서 아래의 작업을 자동화 
         * v Tag가 있을 경우 진행   
         * 먼저 항상 가상으로 테스트 진행   
@@ -11,11 +16,7 @@
 
 * Node.js에서 ESM(ECMAScript Module) 의 Package 이용 
     * esbuild.mjs
-    * package.json 
-
-</br>
-
-* package.json (esbuild.mjs 자동실행)
+    * package.json (esbuild.mjs 자동실행)
 ```
   "scripts": {
     "clean": "rimraf dist",
@@ -25,9 +26,11 @@
 }
 ```
 
+상위 Package Javascript을 이용하여 Package 후 이를 배포 진행     
+
 </br>
 
-[Go Back Manaul](index.md)
+[Go Back Index](index.md)
 
 </br>
 
@@ -35,6 +38,8 @@
 
 </br>
 
+* src 전체구조 
+Input File 구조 이지만, html 부분은 output     
 ```
 src/
     css/index.css     --> 각 Blog의 HTML 분석 후 각 부분 변경 
@@ -53,7 +58,7 @@ src/
 </br>
 
 * Output File and Branch     
-    * gp-pages
+    * gp-pages   **(Github Pages)**    
         * jeonghun-latest.css
         * jeonghun-latest.js
         * jeonghun-v0.0.6.css
@@ -156,7 +161,7 @@ Github Page를 연동하여, Blogger에서 가져다 사용해야 하므로 반�
 </br>
 
 
-## Blgger 배포 
+## Blogger 배포 
 
 </br>
 
@@ -210,3 +215,6 @@ Google Blog에서 가져다 쓸 Javascript와 CSS를 의미하며, 이곳에서�
 
 
 </br>
+
+##
+<p align="center"><sup>© 2025 Jeonghun (James) Lee | </sup><a href="index.md#github-관리방법"><sup>Table of Contents</sup></a></p>
