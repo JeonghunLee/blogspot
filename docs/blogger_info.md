@@ -5,12 +5,20 @@
 이전의 나의 구글 Blogger 는 다 손으로 HTML 부분을 내가 직접 수정해서 거의 만들었으나,      
 이제 쉽게 관리하도록 이를 모듈화를 하기로 결정   
 
+* My Technical Blog (Main)      
+아래와 같이 직접 들어가면 문제가 없음   
+    https://ahyuo79.blogspot.com/
 
+</br>
+
+* Blogspot(Blogger 관련내용정리)
 
 | Information | Tags |
 |-------------|------|
 | Blog Platform | [Google-Blogspot](https://ahyuo79.blogspot.com/search/label/Google-Blogspot) |    
 
+상위 Tag로 하면, 역시 아직이 이 부분은 문제가 발생하며, 기존에 Blog 관련 부분기록과 설명    
+항상 수정에 주의를 해야하며, 호환성을 항상 기억해야함 !!!
 
 </br>
 
