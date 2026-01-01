@@ -5,6 +5,13 @@
 이전의 나의 구글 Blogger 는 다 손으로 HTML 부분을 내가 직접 수정해서 거의 만들었으나,      
 이제 쉽게 관리하도록 이를 모듈화를 하기로 결정   
 
+
+
+| Information | Tags |
+|-------------|------|
+| Blog Platform | [Google-Blogspot](https://ahyuo79.blogspot.com/search/label/Google-Blogspot) |    
+
+
 </br>
 
 [Go To Index-(TOC)](index.md#blogger-관리방법)
