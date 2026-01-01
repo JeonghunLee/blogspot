@@ -58,10 +58,10 @@ HTML 과 Javscript 과 CSS를 직접 수정을 하여 유지 보수를 했지만
         * [Blogger-Setupv2](blogger_main_v2#blogger-setup-all-gadget-and-css)  
     * [Blogger-LinkSetup](blogger_info.md#blogger-linksetup)  
         * [link-images](blogger_link_gardget.md#link-images)  
-            * [step1](blogger_link_gardget.md#step1-find-image)     
-            * [step2](blogger_link_gardget.md#step2-resize-32x32-png-option)                  
-            * [step3](blogger_link_gardget.md#step3-chanage-png-to-base64)      
-            * [step4](blogger_link_gardget.md#step4-make-link-based-on-base64)                              
+            * [Step1](blogger_link_gardget.md#step1-find-image)     
+            * [Step2](blogger_link_gardget.md#step2-resize-32x32-png-option)                  
+            * [Step3](blogger_link_gardget.md#step3-chanage-png-to-base64)      
+            * [Step4](blogger_link_gardget.md#step4-make-link-based-on-base64)                              
     * [변경-전후-관련사항](blogger_info.md#변경-전후-관련사항)  
 
 </br>

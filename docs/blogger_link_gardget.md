@@ -19,7 +19,7 @@
 </br>
 
 [Go Back Link Setup](./blogger_info.md#blogger-linksetup)      
-[Go Back Index](index.md#blogger-관리방법)      
+[Go Back Index-(TOC)](index.md#blogger-관리방법)      
 
 </br>
 
@@ -37,7 +37,8 @@ Seach following images (like icons) in Google
 
 </br>
 
-Select one of them and then Resize it 
+Select one of them and then Resize it  (optionally)   
+more than use it like 128x128 if you think icon image is too small 
 
 ![Example](./imgs/link_imgs/32x32/x_32x32.png) 
 

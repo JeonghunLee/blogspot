@@ -7,7 +7,7 @@
 
 </br>
 
-[Go To Index](index.md)
+[Go To Index-(TOC)](index.md#blogger-관리방법)
 
 ## Blogger-Setup
 
