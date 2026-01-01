@@ -19,6 +19,7 @@
 </br>
 
 [Go Back Link Setup](./blogger_info.md#blogger-linksetup)      
+[Go Back Index](index.md#blogger-관리방법)      
 
 </br>
 
@@ -84,3 +85,6 @@ src="data:image/png;base64,  xxx   />
 ```
 
 </br>
+
+##
+<p align="center"><sup>© 2025 Jeonghun (James) Lee | </sup><a href="index.md#blogger-관리방법"><sup>Table of Contents</sup></a></p>

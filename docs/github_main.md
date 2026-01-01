@@ -217,4 +217,4 @@ Google Blog에서 가져다 쓸 Javascript와 CSS를 의미하며, 이곳에서�
 </br>
 
 ##
-<p align="center"><sup>© 2025 Jeonghun (James) Lee | </sup><a href="index.md#github-관리방법"><sup>Table of Contents</sup></a></p>
+<p align="center"><sup>© 2025 Jeonghun (James) Lee | </sup><a href="index.md#blogger-관리방법"><sup>Table of Contents</sup></a></p>

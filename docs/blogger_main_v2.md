@@ -39,3 +39,5 @@ Google Blog의 나만의 Java Script 과 나만의 CSS 적용하여 사용 중 �
 
 </br>
 
+##
+<p align="center"><sup>© 2025 Jeonghun (James) Lee | </sup><a href="index.md#blogger-관리방법"><sup>Table of Contents</sup></a></p>

@@ -97,6 +97,8 @@ Blogger 의 Layout 에서 각 Component 를 현재 Gadget 이라고 하며,
 
 </br>
 
+##
+<p align="center"><sup>© 2025 Jeonghun (James) Lee | </sup><a href="index.md#blogger-관리방법"><sup>Table of Contents</sup></a></p>
 
 
 

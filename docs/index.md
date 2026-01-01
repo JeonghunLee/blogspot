@@ -3,16 +3,18 @@
 </br>
 
 
-* **목적**       
-Blogger(blogspot) 는 구글에서 운영하는 Blog이며,   
-나만의 Google Blog를 만들고 유지하기 위해서 매번 내부적으로,   
-HTML 과 Javscript 과 CSS를 직접 수정을 하여 유지 보수를 했지만,         
-수정되고 변경되어지는 부분이 기존 Google Blog 호환성 문제 와    
-수정한 부분을 매번 까먹고, 간혹 Blog가 문제가 되는 상태가 발생하여,    
-이를 외부에서 모듈 (Javascript/CSS) 가져오는 형태로 생각을 하게되어짐                              
-    * 각 Java Script 과 CSS 다 수정하여, 나의 Blog를 관리 진행했으나, 너무 복잡해짐      
-    * 이를 쉽게 외부에서 관리로 변경  
-    * 최종 Release 에서 이를 가져다 참조 형태로 사용하기로 전체를 변경함    
+* **구성목적**       
+Blogger(blogspot) 는 구글에서 운영하는 Blog이며,나만의 Google Blog를 만들고 유지하기 위해서 매번 내부적으로,   
+HTML 과 Javscript 과 CSS를 직접 수정을 하여 유지 보수를 했지만,수정되고 변경되어지는 부분이 기존 Google Blog 호환성 문제와    
+수정한 부분을 매번 까먹고, 간혹 Blog가 문제가 되는 상태가 발생하여,이를 외부에서 모듈 (Javascript/CSS) 가져오는 형태로 생각을 하게되어짐           
+
+</br>
+
+* **구성방법 및 구현방법**  
+    * 매번 Blogger 에서 각 Java Script 과 CSS 다 수정하여, 나의 Blog를 관리 진행했으나, 너무 복잡해짐      
+    * 이를 쉽게 외부(Github Pages)에서 기반으로 외부 관리로 변경  
+    * 최종 외부 Release(Github Pages) 에서 이 모듈을 가져다, Blogger에서 참조 형태로 사용하기로 전체를 변경함     
+        * Blogger 의 내부 HTML와 Javascript/CSS 를 외부화   
 
 </br>
 
@@ -35,7 +37,7 @@ HTML 과 Javscript 과 CSS를 직접 수정을 하여 유지 보수를 했지만
 
 </br>
 
-* Github 관리 **(Table of Contents)** 
+* Github_Main **(Table of Contents)** 
     * [github-관리](./github_main.md#github-관리)
     * [전체구조](./github_main.md#전체구조)
     * [github-action-전체동작](./github_main.md#github-action-전체동작)
@@ -50,7 +52,13 @@ HTML 과 Javscript 과 CSS를 직접 수정을 하여 유지 보수를 했지만
 
 </br>
 
-[Blogger 관리](blogger_info.md) 
+* Blogger Info **(Table of Contents)** 
+    * [Blogger-Setup](blogger_info.md#blogger-setup)  
+        * [Blogger-Setupv1](blogger_main_v1#blogger-setup)  
+        * [Blogger-Setupv2](blogger_main_v2#blogger-setup-all-gadget-and-css)  
+    * [Blogger-LinkSetup](blogger_info.md#blogger-linksetup)  
+        * [Blogger-LinkSetup](blogger_link_gardget#link-images)  
+    * [변경-전후-관련사항](blogger_info.md#변경-전후-관련사항)  
 
 </br>
 

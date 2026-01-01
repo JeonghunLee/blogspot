@@ -31,4 +31,5 @@ HTML 소스 분석 에서 직접 Head 끝 부분에 아래 추가
 
 </br>
 
-
+##
+<p align="center"><sup>© 2025 Jeonghun (James) Lee | </sup><a href="index.md#blogger-관리방법"><sup>Table of Contents</sup></a></p>
